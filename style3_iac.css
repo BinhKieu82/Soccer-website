@@ -1,0 +1,86 @@
+/*  */
+body{
+    font-family: cursive;
+    font-size: 15px;
+    margin: auto;
+}
+
+/*  HOME  */
+#banner{
+    background-image: url(./Task2/Layout1/Images/design1_image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;/*  tràn hết width&height banner*/
+    height:  750px;
+}
+#banner h2{
+    color: white; 
+    font: bold 50px/45px Helvetica, Sans-Serif; 
+    letter-spacing: -1px; 
+    width: 100%;
+}
+#logo img {
+    position: absolute;
+    width: 120px;
+    top: 850px;
+    left: 50px;       
+}
+#logo h2{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 0px;
+}
+
+#menu {
+    float: left;
+}
+#menu ul{
+    margin: 0px;
+    padding: 0px;
+    
+}
+#menu ul li{
+    background-color: aqua;
+    list-style: none;
+    text-decoration: none;
+    font: bold 20px/45px Helvetica, Sans-Serif;
+    border-style: solid; border-color: black;
+    box-shadow: 5px 5px black;
+    color: white;
+    padding: 0px 10px 0px 10px;
+}
+#menu ul li a{
+    color: white;
+    text-decoration: none;
+}
+#menu ul li.index{
+    background-color: green;
+}
+#menu ul li.about{
+    background-color: green;    
+}
+#menu ul li.contact{
+    background-color: green;
+}
+#main {
+    float: left;
+    margin-left: 210px;
+}
+#main ul li{
+    margin-top: 10px;
+    list-style: none;
+    text-indent: 15px;
+}
+
+
+
+/* FOOTER */
+#footer{
+    background: black;
+    height: 60px;
+    text-align: center;
+    color: yellow;
+    clear: left;
+    line-height: 60px;
+}

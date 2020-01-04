@@ -1,0 +1,85 @@
+body{
+    font-family: cursive;
+    font-size: 15px;
+    width: 1000px;
+    margin: 0px auto;
+    text-align:justify;
+}
+#line1 dl ul li{
+    margin-left: 30px;
+}
+#line2 dl ul li{
+    margin-left: 30px;
+}
+#line3 dl ul li{
+    margin-left: 30px;
+}
+#line4 dl ul li{
+    margin-left: 30px;
+}
+#line5 dl ul li{
+    margin-left: 30px;
+}
+#line6 dl ul li{
+    margin-left: 30px;
+}
+#line7 dl ul li{
+    margin-left: 30px;
+}
+#line8 dl ul li{
+    margin-left: 30px;
+}
+#line9 dl ul li{
+    margin-left: 30px;
+}
+
+#number1 dl ol li{
+    list-style-type: decimal;
+    margin-left: 30px;
+}
+#number1 dl ol li ol li{
+    list-style-type: lower-alpha;
+}
+#number1 dl ol li ol li ul li{
+    list-style-type: square;
+}
+#number2 dl ul li {
+    list-style-type: square;
+    margin-left: 30px;
+}
+#number2 dl ul li ol li{
+    list-style-type: decimal;
+}
+#number3 dl ul li {
+    list-style-type: square;
+    margin-left: 30px;
+}
+#number3 dl ul li ol li{
+    list-style-type: decimal;
+    
+}
+#number3 dl ul li ol{
+    list-style-type: decimal;
+}
+
+#number4 dl ul {
+    list-style-type: square;
+    
+}
+#number4 dl ul li {
+    list-style-type: square;
+    margin-left: 30px;
+}
+#number4 dl ul li ol li{
+    list-style-type: decimal;
+}
+
+
+#footer{
+    background: black;
+    height: 60px;
+    text-align: center;
+    color: yellow;
+    clear: left;
+    line-height: 60px;
+}
